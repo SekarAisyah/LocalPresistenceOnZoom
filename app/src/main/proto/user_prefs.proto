@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.example.localpresistenceonzoom";
+option java_multiple_files = true;
+
+message UserPreferences {
+  // filter for showing / hiding completed tasks
+  string nama = 1;
+  int32 umur = 2;
+}
